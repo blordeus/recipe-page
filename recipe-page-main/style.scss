@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Outfit-Variable;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Young-Serif;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+// ### Primary
+
+$Nutmeg: hsl(14, 45%, 36%);
+$Dark-Raspberry: hsl(332, 51%, 32%);
+
+// ### Neutral
+
+$White: hsl(0, 0%, 100%);
+$Rose-White: hsl(330, 100%, 98%);
+$Eggshell: hsl(30, 54%, 90%);
+$Light-Grey: hsl(30, 18%, 87%);
+$Wenge-Brown: hsl(30, 10%, 34%);
+$Dark-Charcoal: hsl(24, 5%, 18%);
+
+body {
+    font-family: Outfit-Variable;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: $Nutmeg;
+}
+
+.young {
+    font-family: Young-Serif;
+}
+
+.rose-white {
+    background-color: $Rose-White;
+}
+
+.eggshell {
+    background-color: $Eggshell;
+}
+
+.light-grey {
+    background-color: $Light-Grey;
+}
+
+.dark-charcoal {
+    background-color: $Dark-Charcoal;
+}
+
+.dark-raspberry {
+    color: $Dark-Raspberry;
+}
+
+li {
+    padding-right: 5px;
+    color: $Dark-Raspberry;
+}
