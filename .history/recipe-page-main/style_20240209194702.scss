@@ -26,10 +26,6 @@ body {
     font-family: Outfit-Variable;
 }
 
-main {
-    padding-bottom: 5%;
-}
-
 p {
     font-size: 16px;
     line-height: 1.5;
@@ -38,6 +34,7 @@ p {
 
 img {
     max-width: 100%;
+    border-bottom: 10%;
 }
 
 .young {
@@ -89,13 +86,13 @@ span {
 
 //media queries
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1440px) {
     main {
-        padding: 5% 5%;
-        border-radius: 20px;
+        padding: 2% 1%;
+        border-radius: 2%;
     }
     body {
-        margin: 2% 30%;
+        margin: 1% 5%;
     }
 
     img {
@@ -104,6 +101,5 @@ span {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        border-radius: 25px;
     }
 }

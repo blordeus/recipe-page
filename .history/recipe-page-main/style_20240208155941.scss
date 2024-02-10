@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Outfit-Variable;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Young-Serif;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body {
+    font-family: Outfit-Variable;
+}
+
+.young {
+    font-family: Young-Serif;
+}

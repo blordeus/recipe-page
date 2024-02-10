@@ -26,26 +26,14 @@ body {
     font-family: Outfit-Variable;
 }
 
-main {
-    padding-bottom: 5%;
-}
-
 p {
     font-size: 16px;
     line-height: 1.5;
     color: $Dark-Charcoal;
 }
 
-img {
-    max-width: 100%;
-}
-
 .young {
     font-family: Young-Serif;
-}
-
-.nutmeg {
-    color: $Nutmeg;
 }
 
 .rose-white {
@@ -74,36 +62,9 @@ img {
     color: $Wenge-Brown;
 }
 
-.white {
-    background-color: $White;
-}
-
 li {
+    color: $Dark-Raspberry;
     line-height: 2;
-}
-
-span {
-    position: relative;
-    left: 20px;
-}
-
-//media queries
-
-@media only screen and (min-width: 960px) {
-    main {
-        padding: 5% 5%;
-        border-radius: 20px;
-    }
-    body {
-        margin: 2% 30%;
-    }
-
-    img {
-        max-width: 100%;
-        border-bottom: 10%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 25px;
-    }
+    text-align: left;
+    margin-left: 5;
 }
