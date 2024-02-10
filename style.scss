@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Outfit-Variable;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Young-Serif;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+// ### Primary
+
+$Nutmeg: hsl(14, 45%, 36%);
+$Dark-Raspberry: hsl(332, 51%, 32%);
+
+// ### Neutral
+
+$White: hsl(0, 0%, 100%);
+$Rose-White: hsl(330, 100%, 98%);
+$Eggshell: hsl(30, 54%, 90%);
+$Light-Grey: hsl(30, 18%, 87%);
+$Wenge-Brown: hsl(30, 10%, 34%);
+$Dark-Charcoal: hsl(24, 5%, 18%);
+
+body {
+    font-family: Outfit-Variable;
+}
+
+main {
+    padding-bottom: 5%;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: $Dark-Charcoal;
+}
+
+img {
+    max-width: 100%;
+}
+
+.young {
+    font-family: Young-Serif;
+}
+
+.nutmeg {
+    color: $Nutmeg;
+}
+
+.rose-white {
+    background-color: $Rose-White;
+    border-radius: 5%;
+}
+
+.eggshell {
+    background-color: $Eggshell;
+}
+
+.light-grey {
+    background-color: $Light-Grey;
+}
+
+.dark-charcoal {
+    color: $Dark-Charcoal;
+}
+
+.dark-raspberry {
+    color: $Dark-Raspberry;
+    font-weight: bold;
+}
+
+.wenge-brown {
+    color: $Wenge-Brown;
+}
+
+.white {
+    background-color: $White;
+}
+
+li {
+    line-height: 2;
+}
+
+span {
+    position: relative;
+    left: 20px;
+}
+
+//media queries
+
+@media only screen and (min-width: 960px) {
+    main {
+        padding: 5% 5%;
+        border-radius: 20px;
+    }
+    body {
+        margin: 2% 30%;
+    }
+
+    img {
+        max-width: 100%;
+        border-bottom: 10%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 25px;
+    }
+}
